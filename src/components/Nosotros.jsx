@@ -9,7 +9,7 @@ const Nosotros = () => {
         </h1>
 
         <p className='py-3 flg:mx-10'>
-          Somos parte del movimiento Internacional de Cruz Roja y Media Luna Roja, <br />
+          El voluntariado de Ica Young esta conformada por jovenes entre 15 y 25 años de edad, <br />
           dedicada a auxiliar a víctimas de guerras o conflictos, personas afectadas por grandes desastres naturales, y a las víctimas <br />
           en situaciones de emergencia masiva, sea en nuestro país, y en el mundo entero.
         </p>
