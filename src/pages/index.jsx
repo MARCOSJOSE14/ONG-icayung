@@ -3,7 +3,6 @@ import Image from 'next/image'
 import portada from '../../public/portada.jpg'
 import Nosotros from '@/components/Nosotros'
 import Actividades from '@/components/Actividades'
-import Voluntarios from '@/components/Voluntarios'
 import Contacto from '@/components/Contacto'
 import Head from 'next/head'
 
