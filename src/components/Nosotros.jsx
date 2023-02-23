@@ -8,10 +8,10 @@ const Nosotros = () => {
           Nosotros
         </h1>
 
-        <p className='py-3 flg:mx-10'>
-          El voluntariado de Ica Young esta conformada por jovenes entre 15 y 25 años de edad, <br />
-          dedicada a auxiliar a víctimas de guerras o conflictos, personas afectadas por grandes desastres naturales, y a las víctimas <br />
-          en situaciones de emergencia masiva, sea en nuestro país, y en el mundo entero.
+        <p className='py-3 text-lg flg:mx-10'>
+        ¡Únete a nuestro voluntariado y ayuda a mejorar la calidad de vida de la población iqueña! <br />
+        El voluntariado de Ica Young son jóvenes entre 15 y 29 años de edad dedicados a ayudar y apoyar a la población iqueña. Nos enfocamos en tres áreas principales: social, ambiental y bienestar animal sin ningún tipo de interés. Trabajamos de manera colaborativa con la comunidad para promover un cambio positivo en nuestra región. <br />
+        Si te interesa ser parte de este voluntariado, no dudes en contactarnos. ¡Juntos podemos marcar la diferencia en nuestra comunidad y en nuestro entorno!
         </p>
       </div>
 
@@ -21,8 +21,8 @@ const Nosotros = () => {
             Mision
           </h2>
 
-          <p className='text-justify'>
-            Somos una institución humanitaria, auxiliar de los poderes del Estado; integrada por voluntarias y voluntarios en una red de filiales a nivel nacional. Basamos nuestra acción en los Principios y Valores del Movimiento Internacional de la Cruz Roja y de la Media Luna Roja.
+          <p className='text-justify text-lg'>
+          Nuestra misión es mejorar la calidad de vida de la población iqueña, promoviendo la igualdad de oportunidades, el cuidado del medio ambiente y el bienestar animal. Trabajamos de manera colaborativa con la comunidad, fomentando una cultura de respeto y tolerancia, y promoviendo prácticas sostenibles y responsables.
           </p>
         </div>
 
@@ -31,8 +31,8 @@ const Nosotros = () => {
             Vision
           </h2>
 
-          <p className='text-justify'>
-            Al 2020 la Cruz Roja Peruana es una organización reconocida por estar conformada por voluntarias y voluntarios, líder en el fortalecimiento de las comunidades vulnerables y en la gestión del riesgo de desastres y crisis, y se gestiona de una forma eficiente, sostenible y con buenas prácticas de gobierno.
+          <p className='text-justify text-lg'>
+          Nuestra visión es ser un referente en la promoción del desarrollo sostenible y la mejora de la calidad de vida en la región iqueña. Queremos inspirar a la comunidad a actuar de manera responsable y comprometida con el bienestar social, ambiental y animal.
           </p>
         </div>
 
@@ -41,10 +41,12 @@ const Nosotros = () => {
             Valores
           </h2>
 
-          <ul className='grow items-center justify-center flex-col flex text-xl font-normal gap-3'>
-            <li>Solidaridad</li>
-            <li>Amor</li>
+          <ul className=' grow items-center justify-center flex-col flex text-lg font-normal gap-3'>
+            <li>Compromiso</li>
             <li>Respeto</li>
+            <li>Responsabilidad</li>
+            <li>Solidaridad</li>
+            <li>Transparencia</li>
           </ul>
         </div>
 

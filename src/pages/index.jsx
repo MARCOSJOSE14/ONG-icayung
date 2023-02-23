@@ -28,7 +28,7 @@ export default function Home () {
 
         <Actividades/>
 
-        <Voluntarios/>
+        {/* <Voluntarios/> */}
 
         <Contacto/>
       </div>
