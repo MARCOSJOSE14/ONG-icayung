@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
         <>
-        <div className='fixed w-full '>
+        <div className='fixed w-full z-50 '>
 
           <header className='bg-orange-500'>
               <div className="container m-auto  text-white flex justify-center px-20 py-4 items-center font-medium text-lg lg:justify-between">
@@ -64,6 +64,7 @@ const Header = () => {
           </nav>
         </div>
 
+        <div className='h-28' />
         </>
   )
 }

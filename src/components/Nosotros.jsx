@@ -1,4 +1,4 @@
-const Nosotros = () => {
+const Nosotros = ({ data }) => {
   return (
   <>
     <div id='nosotros' className='container m-auto px-10  pt-24 lg:pt-28 bg-white '>
@@ -16,39 +16,24 @@ const Nosotros = () => {
       </div>
 
       <div className='flex flex-wrap mx-5 gap-10  my-8 justify-between bg-white  lg:mx-10 '>
-        <div className='flex-1 p-5 shadow-xl border-t-4 border-orange-400 rounded-2xl'>
+        {data.map(({ nosDes, nosTit, nosId }) => (
+        <div key={nosId} className='flex-1 p-5 shadow-xl border-t-4 border-orange-400 rounded-2xl'>
           <h2 className='font-bold text-3xl py-3 text-center '>
-            Mision
+            {nosTit}
           </h2>
 
-          <p className='text-justify text-lg'>
-          Nuestra misión es mejorar la calidad de vida de la población iqueña, promoviendo la igualdad de oportunidades, el cuidado del medio ambiente y el bienestar animal. Trabajamos de manera colaborativa con la comunidad, fomentando una cultura de respeto y tolerancia, y promoviendo prácticas sostenibles y responsables.
-          </p>
+            {nosId === 3
+              ? <ul className='text-center'>
+              {(nosDes.split(', ')).map((des, index) => (
+                <li className='my-1' key={index}>{des}</li>
+              ))}
+              </ul>
+              : <p className='text-justify text-lg'>
+              { nosDes }
+              </p>
+            }
         </div>
-
-        <div className='flex-1 p-5 shadow-xl border-t-4 border-orange-400 rounded-2xl'>
-          <h2 className='font-bold text-3xl py-3 text-center '>
-            Vision
-          </h2>
-
-          <p className='text-justify text-lg'>
-          Nuestra visión es ser un referente en la promoción del desarrollo sostenible y la mejora de la calidad de vida en la región iqueña. Queremos inspirar a la comunidad a actuar de manera responsable y comprometida con el bienestar social, ambiental y animal.
-          </p>
-        </div>
-
-        <div className='flex-1  p-5 shadow-xl border-t-4 border-orange-400 rounded-2xl flex-col flex'>
-          <h2 className='font-bold text-3xl py-3 text-center'>
-            Valores
-          </h2>
-
-          <ul className=' grow items-center justify-center flex-col flex text-lg font-normal gap-3'>
-            <li>Compromiso</li>
-            <li>Respeto</li>
-            <li>Responsabilidad</li>
-            <li>Solidaridad</li>
-            <li>Transparencia</li>
-          </ul>
-        </div>
+        ))}
 
       </div>
 
